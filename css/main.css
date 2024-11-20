@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
 }
@@ -10,8 +10,8 @@
 
 html {
   scroll-behavior: smooth;
-  background: #0e1c24;
-  color: #ffffff;
+  background: #fff;
+  color: #000;
 }
 
 body {
@@ -304,7 +304,7 @@ a {
   height: 800px;
 
   margin: auto;
-  background-image: url("/img/home/Leonardo_Kino_XL_A_luxurious_yacht_floating_gracefully_on_the_1\ \(1\).png");
+  background-image: url("/image/home/a\ photo\ of\ bright\ desserts\ or\ a\ festive\ cake\ against\ the\ background\ of\ a\ cozy\ interior\ of\ a\ pastry\ shop.png");
 }
 .home__wrapper {
   position: relative;
@@ -314,85 +314,33 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 116px;
-  gap: 42px;
+  padding-top: 122px;
+  gap: 38px;
 }
-.home__container-top {
-  display: flex;
 
-  flex-direction: column;
-  align-items: center;
-  gap: 22px;
-}
 .home-title {
-  width: 328px;
-  text-transform: uppercase;
-  font-family: Cinzel Decorative;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 43.14px;
+  width: 335px;
+
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #fbfbfb;
+}
 
-  color: #ffffff;
-}
-.home-title-bold {
-  color: #00c0ee;
-}
 .home-text {
   width: 335px;
-
-  font-family: Open Sans;
+  color: #fbfbfb;
+  font-family: Poppins;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 36px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-}
-.home-button {
-  width: 213px;
-  height: 46px;
-  padding: 12px 14px 12px 14px;
-
-  border-radius: 20px;
-
-  background: #00c0ee;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.79px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #0e1c24;
-  text-decoration: none;
-  border: none;
-}
-.home-button-two {
-  border: 1px solid #ffffff;
-  background-color: transparent;
-}
-.home-button_link {
-  display: inline-block;
-
-  width: 185px;
-  height: 22px;
-
-  text-decoration: none;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.79px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #0e1c24;
-  text-decoration: none;
-}
-.home-button_link-two {
-  color: #ffffff;
 }
 
 @media screen and (min-width: 1200px) {
@@ -400,36 +348,30 @@ a {
     margin: auto;
     width: 1440px;
     height: 820px;
-    background-image: url("/img/home/Leonardo_Kino_XL_A_luxurious_yacht_floating_gracefully_on_the_1\ \(1\)\ \(1\).png");
+    background-image: url("/image/home/a\ photo\ of\ bright\ desserts\ or\ a\ festive\ cake\ against\ the\ background\ of\ a\ cozy\ interior\ of\ a\ pastry\ shop\ \(1\).png");
   }
 
   .home__wrapper {
-    position: relative;
-    z-index: 3;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 153px;
+    padding-top: 219px;
+    gap: 44px;
   }
 
   .home-title {
-    width: 1039px;
-
-    font-family: Cinzel Decorative;
-    font-size: 54px;
-    font-weight: 700;
-    line-height: 72.79px;
+    width: 1081px;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 95.98px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
   .home-text {
-    width: 764px;
+    width: 1081px;
 
-    font-family: Open Sans;
+    font-family: Poppins;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 36px;
     text-align: center;
     text-underline-position: from-font;
@@ -445,7 +387,7 @@ a {
 }
 
 .about {
-  padding: 80px 20px;
+  padding: 80px 0 70px;
 
   margin: auto;
   display: flex;
@@ -454,118 +396,118 @@ a {
   flex-direction: column;
 }
 .about-title {
-  font-family: Cinzel Decorative;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 48.53px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #00c0ee;
+  color: #412213;
 }
 .about-text {
-  font-family: Open Sans;
-  font-size: 22px;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 29.96px;
-  text-align: center;
+  line-height: 24px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   width: 335px;
-  padding-top: 32px;
+
+  padding: 36px 0 22px;
+}
+.about-img {
+  width: 375px;
+  height: 375px;
+
+  border-radius: 6px;
 }
 
 .features-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: start;
   justify-content: start;
-  width: 375px;
-  padding-top: 20px;
+  width: 335px;
+  padding-top: 22px;
+  gap: 8px;
 }
 .feature {
-  width: 305px;
-  height: 368px;
-  padding: 7.5px 0px 30px 0px;
-  gap: 18px;
-  border-radius: 20px;
-  background: #d8c0b3;
-
-  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
 }
 .feature-img {
-  width: 305px;
-  height: 235px;
+  width: 48px;
+  height: 48px;
+}
 
-  border-radius: 20px;
-}
-.feature-text-bold {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 259px;
-  color: #0e1c24;
-  margin: auto;
-  padding-top: 18px;
-}
 .feature-text {
-  padding-top: 8px;
-  width: 259px;
+  width: 279px;
 
-  font-family: Open Sans;
-  font-size: 16px;
+  font-family: Poppins;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 21.79px;
-  text-align: center;
+  line-height: 33px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   margin: auto;
 }
-
+.about-img-desk {
+  display: none;
+}
 @media screen and (min-width: 1200px) {
   .about {
-    padding: 116px 80px;
+    padding: 150px 80px 150px 0;
 
     margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 128px;
   }
-  .about-title {
-    font-family: Cinzel Decorative;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48.53px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+  .about-img {
+    display: none;
+  }
+  .about-img-desk {
+    display: flex;
+    width: 710px;
+    height: 710px;
+
+    border-radius: 6px;
   }
   .about-text {
-    font-family: Open Sans;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 29.96px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    width: 522px;
 
-    width: 810px;
-
-    padding: 36px 0;
+    padding: 36px 0 80px;
+  }
+  .features-container {
+    padding: 0;
+    width: 522px;
+    gap: 18px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .feature-img {
+    width: 48px;
+    height: 48px;
   }
 
-  .features-container {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: start;
-    width: 1280px;
-    padding-top: 0px;
+  .feature-text {
+    width: 522px;
+
+    margin: auto;
   }
 }
 
@@ -1166,10 +1108,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 17px 0;
-  gap: 17.5px;
-  background: #00c0ee;
+  padding: 11px 19px;
+  gap: 17px;
+  background: #cfc0ad;
 }
 .footer-wrapper {
   display: flex;
@@ -1177,29 +1118,32 @@ a {
   justify-content: space-between;
   align-items: start;
   text-align: center;
-  gap: 12px;
+  gap: 4px;
 }
 .footer-text {
-  font-family: Cinzel Decorative;
+  font-family: Poppins;
   font-size: 22px;
   font-weight: 400;
-  line-height: 29.66px;
+  line-height: 33px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #0e1c24;
+
+  color: #1d1d1d;
+
   text-decoration: none;
 }
 
 .footer-copyright {
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16.34px;
+  line-height: 18px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #0e1c24;
+
+  color: #1d1d1d;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1209,7 +1153,7 @@ a {
     align-items: center;
     width: 1440px;
     margin: auto;
-    padding: 29px 188px;
+    padding: 29px 180px;
     align-items: center;
     gap: 36px;
     display: flex;
@@ -1221,24 +1165,24 @@ a {
     justify-content: space-between;
     align-items: start;
     text-align: center;
-    gap: 192px;
+    gap: 270px;
   }
 
   .footer-text {
-    font-family: Cinzel Decorative;
+    font-family: Poppins;
     font-size: 22px;
     font-weight: 400;
-    line-height: 29.66px;
+    line-height: 33px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 
   .footer-copyright {
-    font-family: Open Sans;
+    font-family: Poppins;
     font-size: 12px;
     font-weight: 400;
-    line-height: 16.34px;
+    line-height: 18px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -1247,38 +1191,39 @@ a {
 .policy-terms-container {
   flex-direction: column;
   align-items: start;
-  padding: 100px 20px 36px;
-  background: #0e1c24;
+  padding: 130px 20px 36px;
+  background: #fff;
 }
 .policy-terms-title {
-  font-family: Cinzel Decorative;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 48.53px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  text-transform: uppercase;
-  color: #00c0ee;
+  color: #412213;
+
   padding-bottom: 36px;
 }
 
 .policy-terms-text {
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
-  font-weight: 800;
-  line-height: 24.51px;
+  font-weight: 700;
+  line-height: 27px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  padding-top: 36px;
+
+  padding-top: 32px;
 }
 
 .policy-terms-text-one {
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.51px;
+  line-height: 27px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -1286,13 +1231,14 @@ a {
 
 .terms-list {
   list-style-type: disc;
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.51px;
+  line-height: 27px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   padding-left: 25px;
 }
 .terms-list li {
@@ -1301,10 +1247,10 @@ a {
 .terms-lists {
   list-style-type: disc;
   padding-left: 25px;
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.51px;
+  line-height: 27px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -1316,15 +1262,15 @@ a {
 
 @media screen and (min-width: 1200px) {
   .policy-terms-container {
-    padding: 155px 82px 46px;
+    padding: 111px 180px 46px;
     align-items: start;
   }
 
   .policy-terms-title {
-    font-family: Cinzel Decorative;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48.53px;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -1340,24 +1286,25 @@ a {
   z-index: 1000;
 
   display: none;
-  background-color: #0e1c24;
+  background: #fbfbfb;
 }
 
 .cookie-popup-text {
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
-  font-weight: 800;
-  line-height: 24.51px;
+  font-weight: 400;
+  line-height: 27px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #1d1d1d;
 }
 
 .cookie-button {
-  font-family: Open Sans;
+  font-family: Poppins;
   font-size: 18px;
-  font-weight: 800;
-  line-height: 24.51px;
+  font-weight: 700;
+  line-height: 27px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -1371,16 +1318,16 @@ a {
 }
 
 #accept-cookies {
-  background: #00c0ee;
-  color: #000;
+  background: #cfc0ad;
+  color: #1d1d1d;
 }
 
 @media screen and (min-width: 1200px) {
   .cookie-popup-text {
-    font-family: Open Sans;
+    font-family: Poppins;
     font-size: 18px;
-    font-weight: 800;
-    line-height: 24.51px;
+    font-weight: 700;
+    line-height: 27px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -1398,7 +1345,7 @@ a {
   .cookie-popup {
     width: 1440px;
     max-width: 1440px;
-
+    display: flex;
     padding: 22px 0px;
   }
 }
