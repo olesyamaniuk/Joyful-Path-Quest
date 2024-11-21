@@ -3,7 +3,7 @@
 
 
 $(function () {
-  $('.popular-container').slick({
+  $('.reviews__list').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
